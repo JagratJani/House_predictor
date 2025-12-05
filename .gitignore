@@ -1,5 +1,18 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
-data/
+
+# Model training outputs
 artifacts/
+data/
+*.npz
+*.joblib
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log

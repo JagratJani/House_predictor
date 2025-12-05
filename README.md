@@ -43,21 +43,23 @@ Deployment-ready   |   Uvicorn / Docker (optional)
 
 ## 📂 Project Structure
 
-📦 California-Housing-Price-Prediction
+```text
+California-Housing-Price-Prediction/
 ├── src/
-│ ├── data.py # Dataset loading, splitting, scaling
-│ ├── train.py # Training + validation + test
-│ ├── evaluate.py # (Optional) separate evaluation
-│ ├── api.py # FastAPI model serving
-├── ui_app.py # Streamlit frontend
+│   ├── data.py              # Dataset loading, splitting, scaling
+│   ├── train.py             # Training + validation + test
+│   ├── evaluate.py          # (Optional) separate evaluation
+│   └── api.py               # FastAPI model serving
+├── ui_app.py                # Streamlit frontend
 ├── data/
-│ ├── scaler.joblib # Saved scaler from preprocessing
-│ └── dataset_scaled.npz # Preprocessed dataset splits
+│   ├── scaler.joblib        # Saved scaler from preprocessing
+│   └── dataset_scaled.npz   # Preprocessed dataset splits
 ├── artifacts/
-│ ├── model_best.pth # Best trained model
-│ ├── model_final.pth # Last epoch model
-│ └── test_metrics.json # Final metrics (RMSE, MAE, R²)
+│   ├── model_best.pth       # Best trained model
+│   ├── model_final.pth      # Last epoch model
+│   └── test_metrics.json    # Final metrics (RMSE, MAE, R²)
 └── requirements.txt
+```
 
 
 ---

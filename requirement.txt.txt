@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+torch        # if you want CPU-only or CUDA-specific, see instructions below
+fastapi
+uvicorn[standard]
